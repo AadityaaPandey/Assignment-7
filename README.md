@@ -1,4 +1,4 @@
-# Data Ingestion Pipeline for Customer and Order Data
+# Data Pipeline for Customer and Order Data
 
 This project implements a modular ETL pipeline designed to process and transform multiple data sources for customer and e-commerce workflows. The pipeline automates data ingestion, file pattern detection, dynamic metadata extraction from filenames, and structured output generation for downstream use.
 
@@ -19,7 +19,6 @@ The pipeline is configured to process the following types of files located in a 
 ## ⚙️ Pipeline Features
 
 - ✅ Scans and processes all matching files dynamically
-- 🕓 Implements a truncate-load model (latest snapshot ingested each run)
 - 📅 Automatically extracts and adds metadata from filenames (date, date_key)
 - 📂 Writes clean structured CSVs to a designated output layer for further use
 
